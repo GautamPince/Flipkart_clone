@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgba(75, 30, 200, 0.334); */
+    background-image: url('https://imgeng.jagran.com/images/2020/oct/Flipkart-sale-offers-electronics1603105987602.jpg');
+    padding: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
+
+.logpage {
+    text-align: center;
+    padding: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    background-color: rgba(249, 249, 251, 0.426);
+    font-size: 75%;
+
+}
+.signpage {
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 75%;
+    padding: 2%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    background-color: rgba(249, 249, 251, 0.426);
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 98%;
+    padding: 12px;
+    /* background-image: url("/Assets/Cources/image\ source/background-hd.jpg"); */
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    text-decoration-color: black;
+
+}
+
+
+.btn {
+    background-color: #2c08f7;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 96%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 164, 125, 0.24), 0 6px 20px 0 rgba(241, 164, 125, 0.19);
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #06800a;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.btn1:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 164, 125, 0.24), 0 6px 20px 0 rgba(241, 164, 125, 0.19);
+    cursor: pointer;
+}
+select{
+    
+    width: 32%;
+    padding: 12px;
+}
+.gen{
+    width: 32%;
+    margin: 5%;
+    height: 2%;
+    display: inline;
+    border-style: ridge  ;
+    background-color: white;
+}
+

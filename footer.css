@@ -1,0 +1,21 @@
+footer {
+    overflow: hidden;
+    background-color: rgb(177, 46, 194);
+}
+
+footer a {
+    display: block;
+    color: rgb(243, 244, 245);
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+
+}footer a:hover{
+    background-color: #f5d837;
+}
+footer a:active{
+    background-color: rgb(141, 63, 131);
+}
+.copyright {
+    float: right;
+}
